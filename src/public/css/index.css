@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
+:root{
+    --bg-main : #FEC499;
+    --font-nav-color : #D87442;
+    --btn-color : #FA9B14;
+}
+body,header{
+    background-color: var(--bg-main);
+    font-family: 'Kanit';
+}
+p{
+    margin: 0;
+}
+.mb-3{
+    width: 128px;
+    height: 128px;
+}
+.custom-row{
+    height: 680px;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.custom-nav > p{
+    font-weight: 500;
+}
+.custom-nav > p:nth-child(1){
+    font-weight: bold;
+    color: var(--font-nav-color);
+}
+.card-body > p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.custom-btn{
+    background-color : var(--btn-color);
+    color: #fff;
+}
